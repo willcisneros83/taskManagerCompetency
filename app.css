@@ -1,0 +1,121 @@
+html, body {
+    padding: 0 ;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.main-content {
+    display:flex;
+}
+
+.section-list {
+    flex: 5;
+    border: 1px solid purple;
+}
+
+h1 {
+    color: darkblue;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.section-form {
+    flex: 3;
+    border: 1px solid cadetblue;
+    background-color: white;
+}
+
+.my-control {
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.my-control label {
+    display: block;
+    color: rgb (85,85,85);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.priority-icon {
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+#iPriority.far {
+    color: rgb(92, 86, 86);
+}
+
+#iPriority.fas {
+    color: red;
+}
+
+.task-list {
+    margin-top:  10px;
+    padding: 10px;
+}
+
+.task {
+    border: 1px solid #b1bfc5;
+    display: flex;
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+
+.task:hover {
+    border: 1px solid rgb(231, 61, 9);
+}
+
+.task i {
+    flex: 1;
+    font-size: 25px;
+}
+
+.task .info {
+    flex: 6;
+}
+
+.task .info p {
+    margin-bottom: 0;
+}
+
+.task .details {
+    flex: 2;
+}
+
+.task .status {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    font-family: 12px;
+    font-weight: 600;
+    color: rgb(139, 151, 175);
+}
+
+.task .category {
+    display: block;
+}
+
+#lblCount {
+    text-align: center;
+    color: rgb(65, 64, 64);
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgb(201, 201, 201);
+    padding: 0 30px;
+}
